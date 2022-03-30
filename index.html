@@ -17,6 +17,12 @@
 .border-right {
   border-right:1px solid black
 }
+.border-white {
+  border-top:1px solid white;
+  border-left:1px solid white;
+  background-color: orange;
+}
+
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
     .row content {height: 450px}
     
@@ -24,6 +30,9 @@
     .sidenav {
       padding-top: 30px;
       height: 100%;
+    }
+    .margin-right {
+      margin-right:75px;
     }
     h1 {
       color: orange;
@@ -38,6 +47,7 @@
     h5 {
       color: grey;
       font-weight: 30;
+    ;
     }
     h6 {
       color: orange;
@@ -55,7 +65,9 @@
       .sidenav {
         height: auto;
         padding: 20px;
-
+ {
+  background-color:white;
+}
       }
       .row.content {height:auto;}
 
@@ -70,12 +82,12 @@
     </div>
     <div class="col-sm-6"></div>
     <div class="col-sm-6">
-    <div class="collapse navbar-collapse" id="myNavbar" style="background-color:orange">
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Technology</a></li>
-        <li><a href="#">Contact us</a></li>
+        <li class="border-white"><a href="#">Home</a></li>
+        <li class="border-white"><a href="#">About us</a></li>
+        <li class="border-white"><a href="#">Technology</a></li>
+        <li class="border-white"><a href="#">Contact us</a></li>
 
       </ul>
     </div>
@@ -105,7 +117,7 @@
         <p>more ></p>
       </h3>
     </div>
-    <div class="col-sm-2 navbar-right">
+    <div class="col-sm-2 navbar-right margin-right">
 
       <h5>
         <p>latest news</p>
